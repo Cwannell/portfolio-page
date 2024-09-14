@@ -11,13 +11,13 @@ padding: 0;
     --base-100: #f1f1f1f1;
     --base-400: #555;
     --base-800: #000;
-    --yellow: #ffda4b;
+    --yellow: orange;
     --yellow-100: #fffbe6;
     --yellow-400: #
     --yellow-800: #8b6f00;
     --blue: #0a61ae;
-    --blue-100: #e2f8ff;
-    --blue-400: #61dafb;
+    --blue-100: lightgrey;
+    --blue-400:grey;
     --blue-800: #0a61ae;
     
 }
@@ -57,17 +57,24 @@ border-bottom: 1px solid rgba(0,0,0,0.1);
             align-items: center;
             justify-content: center;
             font-size: 32px;
-            background-color: var(--base-800);
+            background-color: orange;
             color: var(--base-100);
             height:64px;
             width:64px;
             margin-right:20px;
             border-radius: 50%;
+            img {
+                width:100%;
+                height:100%;
+            }
 
 
         }
-        .logo-test{
+        .logo-text{
         flex:1;
+        .name_color{
+            color:orange;
+        }
         }
     }
 
